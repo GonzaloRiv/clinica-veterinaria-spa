@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -20,9 +21,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <span className="text-lg font-bold text-primary-foreground">HVI</span>
-          </div>
+          <Image src={'/logo-hvi.jpg'} alt="Logo HVI" width={50} height={50}></Image>
           <div className="hidden sm:block">
             <p className="font-serif text-lg font-bold text-foreground leading-tight">Hospital Veterinario</p>
             <p className="text-xs text-muted-foreground tracking-wider uppercase">Integral</p>
@@ -42,9 +41,9 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link href="tel:+56930894678" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="tel:+56956046733" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
             <Phone className="h-4 w-4" />
-            +56 9 3089 4678
+            +569 56046733
           </Link>
           <Button asChild className="bg-primary text-primary-foreground hover:bg-accent">
             <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">

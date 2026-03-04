@@ -21,17 +21,17 @@ export function Hero() {
         <div className="max-w-2xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/20 px-4 py-2 backdrop-blur-sm">
             <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-sm font-medium text-primary-foreground/90">Urgencias 24/7 disponibles</span>
+            <span className="text-sm font-medium text-primary-foreground/90">Urgencias hasta las 1:00 am, todos los días disponibles</span>
           </div>
 
           <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground sm:text-5xl lg:text-6xl text-balance">
-            Cuidamos a quienes
+            Cuidamos lo que
             <br />
-            <span className="text-secondary">tus mascotas merecen</span>
+            <span className="text-secondary">más quieres</span>
           </h1>
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-primary-foreground/80">
-            7 años brindando atención veterinaria de excelencia en Viña del Mar. Todo lo que tu mascota necesita, en un solo lugar.
+            Siete años brindando atención veterinaria de excelencia e integral en la V región,  Todo lo que tu mascota necesita, en un solo lugar.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -62,8 +62,8 @@ export function Hero() {
                 <Clock className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary-foreground">Urgencias 24/7</p>
-                <p className="text-xs text-primary-foreground/60">Siempre disponibles</p>
+                <p className="text-sm font-semibold text-primary-foreground">Servicio de urgencias</p>
+                <p className="text-xs text-primary-foreground/60">Todos los días</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -71,8 +71,8 @@ export function Hero() {
                 <Shield className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary-foreground">Equipo Certificado</p>
-                <p className="text-xs text-primary-foreground/60">Profesionales expertos</p>
+                <p className="text-sm font-semibold text-primary-foreground">Profesionales</p>
+                <p className="text-xs text-primary-foreground/60">Calificados</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -80,7 +80,7 @@ export function Hero() {
                 <Award className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary-foreground">7 Años</p>
+                <p className="text-sm font-semibold text-primary-foreground">Siete Años</p>
                 <p className="text-xs text-primary-foreground/60">De experiencia</p>
               </div>
             </div>

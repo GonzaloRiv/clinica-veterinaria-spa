@@ -98,9 +98,8 @@ export function Testimonials() {
                   <button
                     key={i}
                     onClick={() => setCurrent(i)}
-                    className={`h-2 w-2 rounded-full transition-colors ${
-                      i === current ? "bg-primary-foreground" : "bg-primary-foreground/30"
-                    }`}
+                    className={`h-2 w-2 rounded-full transition-colors ${i === current ? "bg-primary-foreground" : "bg-primary-foreground/30"
+                      }`}
                     aria-label={`Ir a testimonio ${i + 1}`}
                   />
                 ))}

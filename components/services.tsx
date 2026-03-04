@@ -14,17 +14,17 @@ const services = [
   {
     icon: Stethoscope,
     title: "Consultas y Controles",
-    description: "Evaluación completa del estado de salud de tu mascota con profesionales especializados.",
+    description: "Evaluación personalizada, completa e integral del estado de salud de tu mascota.",
   },
   {
     icon: Syringe,
     title: "Vacunas",
-    description: "Programas de vacunación actualizados para proteger a tu mascota en cada etapa de su vida.",
+    description: "Programas de vacunación bajo los protocolos actualizados para cuidar y proteger a tu mascota en cada etapa de su vida.",
   },
   {
     icon: Scissors,
     title: "Cirugías",
-    description: "Procedimientos quirúrgicos con equipos de última generación y monitoreo constante.",
+    description: "Procedimientos quirúrgicos con equipos de última generación y profesionales especializados en cada área.",
   },
   {
     icon: HeartPulse,
@@ -34,22 +34,22 @@ const services = [
   {
     icon: AlertCircle,
     title: "Urgencias",
-    description: "Atención de urgencia cuando tu mascota más lo necesita. Estamos aquí para ayudarte.",
+    description: "Atención de urgencias de lunes a domingo hasta las 1:00 AM.",
   },
   {
     icon: TestTubes,
     title: "Exámenes de Laboratorio",
-    description: "Análisis de sangre, citologías y exámenes de orina con resultados rápidos y precisos.",
+    description: " Análisis de sangre,  orina y citologías. Entregas: Ex Idexx 1 dia / ex de sangre 48 hrs hábiles/ ex de orina 5 dias hábiles / citologías 7 dias hábiles. / cultivos 14 dias hábiles / biopsias 30 dias hábile / biopsia de urgenica 10 dias hábiles.",
   },
   {
     icon: ScanLine,
     title: "Ecografías",
-    description: "Diagnóstico por imagen no invasivo para evaluar órganos internos con precisión.",
+    description: "Se entregan los resultados e informe en 6 días hábiles.",
   },
   {
     icon: Bone,
     title: "Radiografías",
-    description: "Imágenes diagnósticas de alta resolución para evaluar estructuras óseas y tejidos.",
+    description: "Se entregan los resultados e informe en 5 días.",
   },
   {
     icon: Cat,
