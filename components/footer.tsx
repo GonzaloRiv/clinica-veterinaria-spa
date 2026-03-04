@@ -74,9 +74,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="mailto:admi.hvi@gmail.com" className="flex items-center gap-2 text-sm text-background/60 transition-colors hover:text-background">
+                <Link href="mailto:admi@hospitalveterinariointegral.com" className="flex items-center gap-2 text-sm text-background/60 transition-colors hover:text-background">
                   <Mail className="h-4 w-4 shrink-0" />
-                  admi.hvi@gmail.com
+                  admi@hospitalveterinariointegral.com
                 </Link>
               </li>
               <li>
