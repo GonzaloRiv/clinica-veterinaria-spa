@@ -34,17 +34,17 @@ const services = [
   {
     icon: AlertCircle,
     title: "Urgencias",
-    description: "Atención de urgencias de lunes a domingo hasta las 1:00 AM.",
+    description: "Contamos con los recursos necesarios para la estabilización de pacientes en estado crítico y con un sistema de triage  ",
   },
   {
     icon: TestTubes,
-    title: "Exámenes de Laboratorio",
-    description: " Análisis de sangre,  orina y citologías. Entregas: Ex Idexx 1 dia / ex de sangre 48 hrs hábiles/ ex de orina 5 dias hábiles / citologías 7 dias hábiles. / cultivos 14 dias hábiles / biopsias 30 dias hábile / biopsia de urgenica 10 dias hábiles.",
+    title: "Exámenes",
+    description: "Análisis de sangre, orina y citologías, entre otros. Tambien contamos con tecnología idexx para exámenes de urgencia",
   },
   {
     icon: ScanLine,
     title: "Ecografías",
-    description: "Se entregan los resultados e informe en 6 días hábiles.",
+    description: "Imágenes de última definición con informes completos",
   },
   {
     icon: Bone,

@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-primary-foreground/80">
-            Siete años brindando atención veterinaria de excelencia e integral en la V región,  Todo lo que tu mascota necesita, en un solo lugar.
+            Siete años brindando atención veterinaria de integral y de excelencia en la V región, Todo lo que tu mascota necesita, en un solo lugar.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">

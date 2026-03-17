@@ -19,19 +19,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/logo-hvi.jpg',
+        url: '/logo-hvi2.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/logo-hvi.jpg',
+        url: '/logo-hvi2.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/logo-hvi.jpg',
+        url: '/logo-hvi2.png',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/logo-hvi.jpg',
+    apple: '/logo-hvi2.png',
   },
 }
 

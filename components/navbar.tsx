@@ -21,7 +21,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
-          <Image src={'/logo-hvi.jpg'} alt="Logo HVI" width={50} height={50}></Image>
+          <Image src={'/logo-hvi2.png'} alt="Logo HVI" width={50} height={50}></Image>
           <div className="hidden sm:block">
             <p className="font-serif text-lg font-bold text-foreground leading-tight">Hospital Veterinario</p>
             <p className="text-xs text-muted-foreground tracking-wider uppercase">Integral</p>
