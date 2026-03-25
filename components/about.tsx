@@ -38,7 +38,7 @@ export function About() {
               Un equipo comprometido con la salud de tu mascota
             </h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">
-              En Hospital Veterinario Integral, nuestro objetivo es brindar atención médica de alto nivel en un ambiente cálido y confiable. Creemos que cada paciente merece un diagnóstico preciso y un tratamiento personalizado.
+              En Hospital Veterinario Integral, nuestro objetivo es brindar atención médica de alto nivel en un ambiente cálido y confiable. Sabemos que cada paciente merece un diagnóstico preciso y un tratamiento personalizado.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
               Nuestro hospital cuenta con todas las áreas necesarias para que los procedimientos se realicen en un mismo lugar, evitando el estrés de trasladar a tu mascota.
