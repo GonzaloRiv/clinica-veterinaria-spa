@@ -17,7 +17,7 @@ export function Footer() {
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-background/60">
-              7 años cuidando a tus mascotas con los más altos estándares médicos en Viña del Mar.
+              Siete años cuidando a tus mascotas con los más altos estándares médicos en Viña del Mar.
             </p>
           </div>
 
