@@ -34,9 +34,9 @@ export function Cta() {
                 variant="outline"
                 className="border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:text-primary-foreground text-base px-8 py-6"
               >
-                <Link href="tel:+56930894678">
+                {/* <Link href="tel:+56930894678">
                   Llamar ahora
-                </Link>
+                </Link> */}
               </Button>
             </div>
           </div>

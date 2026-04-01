@@ -67,12 +67,12 @@ export function Footer() {
                 <MapPin className="h-4 w-4 shrink-0" />
                 Tamaya 42, Viña del Mar
               </li>
-              <li>
+              {/* <li>
                 <Link href="tel:+56930894678" className="flex items-center gap-2 text-sm text-background/60 transition-colors hover:text-background">
                   <Phone className="h-4 w-4 shrink-0" />
                   +56 9 3089 4678
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="mailto:admi@hospitalveterinariointegral.com" className="flex items-center gap-2 text-sm text-background/60 transition-colors hover:text-background">
                   <Mail className="h-4 w-4 shrink-0" />

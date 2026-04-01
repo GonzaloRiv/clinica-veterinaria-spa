@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
@@ -42,8 +42,8 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <Link href="tel:+56956046733" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
-            <Phone className="h-4 w-4" />
-            +569 56046733
+            {/* <Phone className="h-4 w-4" />
+            +569 56046733 */}
           </Link>
           <Button asChild className="bg-primary text-primary-foreground hover:bg-accent">
             <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
@@ -75,10 +75,10 @@ export function Navbar() {
               </Link>
             ))}
             <hr className="border-border" />
-            <Link href="tel:+56930894678" className="flex items-center gap-2 text-sm text-muted-foreground">
+            {/* <Link href="tel:+56930894678" className="flex items-center gap-2 text-sm text-muted-foreground">
               <Phone className="h-4 w-4" />
               +56 9 3089 4678
-            </Link>
+            </Link> */}
             <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-accent">
               <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
                 Agendar Cita
