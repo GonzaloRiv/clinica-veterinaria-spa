@@ -8,6 +8,7 @@ import { Cta } from "@/components/cta"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { RealGallery } from "@/components/realGallery"
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Services />
       <About />
       <Gallery />
-      <Testimonials />
+      <RealGallery />
       <Cta />
       <Contact />
       <Footer />
