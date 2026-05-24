@@ -8,7 +8,7 @@ export function Hero() {
     <section id="inicio" className="relative min-h-screen flex items-center pt-20">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-vet.jpg"
+          src="/images/Espacios/IMG_7897.jpg"
           alt="Veterinaria atendiendo a un paciente en Hospital Veterinario Integral"
           fill
           className="object-cover"
