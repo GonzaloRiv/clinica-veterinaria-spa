@@ -55,7 +55,7 @@ export function About() {
 
             <div className="mt-10">
               <Button asChild className="bg-primary text-primary-foreground hover:bg-accent px-8 py-6 text-base">
-                <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
+                <Link href="/equipo">
                   Conoce nuestro equipo
                 </Link>
               </Button>
