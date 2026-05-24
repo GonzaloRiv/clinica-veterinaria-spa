@@ -12,9 +12,9 @@ export function Gallery() {
         </div>
 
         <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-xl sm:col-span-2 lg:col-span-1 lg:row-span-2 lg:aspect-auto lg:h-full">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/hero-vet.jpg"
+              src="/images/Espacios/IMG_7656.jpg"
               alt="Veterinaria atendiendo paciente"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
@@ -26,7 +26,7 @@ export function Gallery() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/surgery-room.jpg"
+              src="/images/Espacios/IMG_7694.jpg"
               alt="Sala de cirugía veterinaria"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
@@ -38,7 +38,7 @@ export function Gallery() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/hospitalization.jpg"
+              src="/images/Espacios/IMG_7834.jpg"
               alt="Área de hospitalización felina"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
