@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { AgendarButton } from "./agendarButton"
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -41,15 +42,7 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link href="tel:+56956046733" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
-            {/* <Phone className="h-4 w-4" />
-            +569 56046733 */}
-          </Link>
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-accent">
-            <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
-              Agendar Cita
-            </Link>
-          </Button>
+          <AgendarButton /> 
         </div>
 
         <button
@@ -79,11 +72,7 @@ export function Navbar() {
               <Phone className="h-4 w-4" />
               +56 9 3089 4678
             </Link> */}
-            <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-accent">
-              <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
-                Agendar Cita
-              </Link>
-            </Button>
+            <AgendarButton /> 
           </div>
         </div>
       )}

@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Clock, Shield, Award } from "lucide-react"
+import { AgendarButton } from "@/components/agendarButton"
 
 export function Hero() {
   return (
@@ -35,15 +36,7 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <Button
-              asChild
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-accent text-base px-8 py-6"
-            >
-              <Link href="https://wa.me/56956046733" target="_blank" rel="noopener noreferrer">
-                Agendar Consulta
-              </Link>
-            </Button>
+            <AgendarButton variant="hero" />      
             <Button
               asChild
               size="lg"
