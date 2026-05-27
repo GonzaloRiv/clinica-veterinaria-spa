@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import { Navbar } from "@/components/navbar"
+import { AgendarButton } from "@/components/agendarButton"
 
 const team = [
   {
@@ -101,22 +102,11 @@ export default function EquipoPage() {
             <h2 className="font-serif text-3xl font-bold text-primary-foreground text-balance">
               ¿Listo para agendar una consulta?
             </h2>
-            <p className="mt-3 text-primary-foreground/80">
+            <p className="mt-3 text-primary-foreground/80 mb-3">
               Nuestro equipo está disponible para atender a tu mascota con el cuidado
               que merece.
             </p>
-            <Button
-              asChild
-              className="mt-8 bg-background text-foreground hover:bg-accent px-8 py-6 text-base"
-            >
-              <Link
-                href="https://wa.me/56956046733"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Agendar por WhatsApp
-              </Link>
-            </Button>
+            <AgendarButton variant="cta" />
           </div>
         </div>
       </section>

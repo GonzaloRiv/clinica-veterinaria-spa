@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import { AgendarButton } from "./agendarButton"
 
 export function Cta() {
   return (
@@ -14,11 +15,11 @@ export function Cta() {
             <h2 className="font-serif text-3xl font-bold text-primary-foreground sm:text-4xl text-balance">
               Tu mascota merece la mejor atención
             </h2>
-            <p className="mt-4 text-lg leading-relaxed text-primary-foreground/80">
+            <p className="mt-4 text-lg leading-relaxed text-primary-foreground/80" style={{marginRight: 10}}>
               Agenda una consulta hoy y conoce a nuestro equipo. Estamos preparados para cuidar de quienes más quieres.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button
+              {/* <Button
                 asChild
                 size="lg"
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-base px-8 py-6"
@@ -27,17 +28,8 @@ export function Cta() {
                   Agendar por WhatsApp
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
-              </Button>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:text-primary-foreground text-base px-8 py-6"
-              >
-                {/* <Link href="tel:+56930894678">
-                  Llamar ahora
-                </Link> */}
-              </Button>
+              </Button> */}
+              <AgendarButton variant="cta" />
             </div>
           </div>
         </div>
