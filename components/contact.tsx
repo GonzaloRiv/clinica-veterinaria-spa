@@ -56,7 +56,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-foreground">Email</h3>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    <Link href="mailto:admi@hospitalveterinariointegral.com" className="hover:text-primary transition-colors">admi@hospitalveterinariointegral.com</Link>
+                    <Link href="mailto:contacto@hospitalveterinariointegral.com" className="hover:text-primary transition-colors">contacto@hospitalveterinariointegral.com</Link>
                   </p>
                 </div>
               </div>
