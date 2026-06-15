@@ -4,20 +4,22 @@ import { useState, useEffect, useCallback } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const images = [
-  { src: "/images/Espacios/IMG_7647.jpg", alt: "Espacio 1" },
-  { src: "/images/Espacios/IMG_7649.jpg", alt: "Espacio 2" },
-  { src: "/images/Espacios/IMG_7656.jpg", alt: "Espacio 3" },
-  { src: "/images/Espacios/IMG_7665.jpg", alt: "Espacio 4" },
-  { src: "/images/Espacios/IMG_7694.jpg", alt: "Espacio 5" },
-  { src: "/images/Espacios/IMG_7699.jpg", alt: "Espacio 6" },
-  { src: "/images/Espacios/IMG_7763.jpg", alt: "Espacio 7" },
-  { src: "/images/Espacios/IMG_7834.jpg", alt: "Espacio 8" },
-  { src: "/images/Espacios/IMG_7846.jpg", alt: "Espacio 9" },
-  { src: "/images/Espacios/IMG_7897.jpg", alt: "Espacio 10" },
-  { src: "/images/Espacios/IMG_7899.jpg", alt: "Espacio 11" },
-  { src: "/images/Espacios/IMG_7909.jpg", alt: "Espacio 12" },
-  { src: "/images/Espacios/IMG_7918.jpg", alt: "Espacio 13" },
-  { src: "/images/Espacios/IMG_7942.jpg", alt: "Espacio 14" },
+  { src: "/images/Espacios/IMG_7647.webp", alt: "Espacio 1" },
+  { src: "/images/Espacios/IMG_7649.webp", alt: "Espacio 2" },
+  { src: "/images/Espacios/IMG_7656.webp", alt: "Espacio 3" },
+  { src: "/images/Espacios/IMG_7665.webp", alt: "Espacio 4" },
+  { src: "/images/Espacios/IMG_7694.webp", alt: "Espacio 5" },
+  { src: "/images/Espacios/IMG_7699.webp", alt: "Espacio 6" },
+  { src: "/images/Espacios/IMG_7763.webp", alt: "Espacio 7" },
+  { src: "/images/Espacios/IMG_7834.webp", alt: "Espacio 8" },
+  { src: "/images/Espacios/IMG_7846.webp", alt: "Espacio 9" },
+  { src: "/images/Espacios/IMG_7897.webp", alt: "Espacio 10" },
+  { src: "/images/Espacios/IMG_7899.webp", alt: "Espacio 11" },
+  { src: "/images/Espacios/IMG_7909.webp", alt: "Espacio 12" },
+  { src: "/images/Espacios/IMG_7918.webp", alt: "Espacio 13" },
+  { src: "/images/Espacios/IMG_7942.webp", alt: "Espacio 14" },
+  { src: "/images/Espacios/IMG_5428.webp", alt: "Espacio 15" },
+  { src: "/images/Espacios/IMG_5430.webp", alt: "Espacio 16" },
 ]
 
 export function RealGallery() {

@@ -20,7 +20,7 @@ export function About() {
           <div className="relative">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/images/team.jpg"
+                src="/images/EQUIPO.webp"
                 alt="Equipo del Hospital Veterinario Integral"
                 fill
                 className="object-cover"
