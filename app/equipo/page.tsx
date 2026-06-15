@@ -9,27 +9,27 @@ const team = [
   {
     name: "Dra. Andrea Gil",
     specialty: "Dermatología",
-    image: "/images/Especialistas/DermatologiaDraAndreaGil.jpg",
+    image: "/images/Especialistas/DermatologiaDraAndreaGil.webp",
   },
   {
     name: "Dra. Natalia Balboran",
     specialty: "Especialidad Felino",
-    image: "/images/Especialistas/Especialidad Felino Dra Natalia Balboran.jpg",
+    image: "/images/Especialistas/Especialidad Felino Dra Natalia Balboran.webp",
   },
   {
     name: "Dr. Manuel Orellana",
     specialty: "Nefrología",
-    image: "/images/Especialistas/Nefrologo Dr Manuel orellana.jpg",
+    image: "/images/Especialistas/Nefrologo Dr Manuel orellana.webp",
   },
   {
     name: "Dr. Juan Pablo Balboran",
     specialty: "Neurología",
-    image: "/images/Especialistas/Neurologia Dr Juan Pablo Balboran.jpg",
+    image: "/images/Especialistas/Neurologia Dr Juan Pablo Balboran.webp",
   },
   {
     name: "Dr. Rodrigo Santiago",
     specialty: "Odontología",
-    image: "/images/Especialistas/Odontologia Dr Rodrigo Santiago.jpg",
+    image: "/images/Especialistas/Odontologia Dr Rodrigo Santiago.webp",
   },
 ]
 
