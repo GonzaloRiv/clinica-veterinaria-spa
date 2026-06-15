@@ -14,7 +14,7 @@ export function Gallery() {
         <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/Espacios/IMG_7656.jpg"
+              src="/images/Espacios/IMG_7656.webp"
               alt="Veterinaria atendiendo paciente"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
@@ -26,7 +26,7 @@ export function Gallery() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/Espacios/IMG_7694.jpg"
+              src="/images/Espacios/IMG_7694.webp"
               alt="Sala de cirugía veterinaria"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
@@ -38,7 +38,7 @@ export function Gallery() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/images/Espacios/IMG_7834.jpg"
+              src="/images/Espacios/IMG_7834.webp"
               alt="Área de hospitalización felina"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"
