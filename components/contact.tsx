@@ -70,7 +70,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-foreground">Horarios</h3>
                   <p className="mt-1 text-sm text-muted-foreground">Lunes a Sábado: 8:00 - 20:00</p>
-                  <p className="text-sm text-muted-foreground">Urgencias: 8:00 - 1:00 am</p>
+                  <p className="text-sm text-muted-foreground">Urgencias: 9:00 - 1:00 am</p>
                 </div>
               </div>
             </div>
