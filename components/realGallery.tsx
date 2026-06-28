@@ -20,6 +20,14 @@ const images = [
   { src: "/images/Espacios/IMG_7942.webp", alt: "Espacio 14" },
   { src: "/images/Espacios/IMG_5428.webp", alt: "Espacio 15" },
   { src: "/images/Espacios/IMG_5430.webp", alt: "Espacio 16" },
+  { src: "/images/Espacios/IMG_8524.webp", alt: "Espacio 17" },
+  { src: "/images/Espacios/IMG_8552.webp", alt: "Espacio 18" },
+  { src: "/images/Espacios/IMG_8581.webp", alt: "Espacio 19" },
+  { src: "/images/Espacios/IMG_8629.webp", alt: "Espacio 20" },
+  { src: "/images/Espacios/IMG_8674.webp", alt: "Espacio 21" },
+  { src: "/images/Espacios/IMG_8689.webp", alt: "Espacio 22" },
+  { src: "/images/Espacios/IMG_8733.webp", alt: "Espacio 23" },
+  { src: "/images/Espacios/IMG_8742.webp", alt: "Espacio 24" },
 ]
 
 export function RealGallery() {
