@@ -31,6 +31,77 @@ const team = [
     specialty: "Odontología",
     image: "/images/Especialistas/Odontologia Dr Rodrigo Santiago.webp",
   },
+   {
+    name: "Dra. Angela Arevalo",
+    specialty: "Cardiología",
+    image: "/images/Especialistas/Angela-Arevalo-Cardiologa.webp",
+  },
+   {
+    name: "Dra. Ayline Sanchez",
+    specialty: "Técnico de Hospital",
+    image: "/images/Especialistas/Ayline Sanchez Tecnico hospital.webp",
+  },
+   {
+    name: "Dr. Claudio Medina",
+    specialty: "Hospital",
+    image: "/images/Especialistas/Claudio-Medina-Hospital.webp",
+  },
+   {
+    name: "Dra. Constanza Ruiz",
+    specialty: "Consulta General",
+    image: "/images/Especialistas/Constanza-ruiz-consulta-general.webp",
+  },
+   {
+    name: "Dra. Danahe Durán",
+    specialty: "Técnico de Hospital",
+    image: "/images/Especialistas/Danahe Duran Tecnico Hospital.webp",
+  },
+  {
+    name: "Dra. Daniela D",
+    specialty: "Oncología",
+    image: "/images/Especialistas/Daniela-D-Oncologa.webp",
+  },
+  {
+    name: "Dra. Fanny Ibacache",
+    specialty: "Médico de Hospital",
+    image: "/images/Especialistas/Fanny-Ibacache-Medico-de-hospital.webp",
+  },
+  {
+    name: "Dra. Francisca Galindo",
+    specialty: "Jefe de Técnicos",
+    image: "/images/Especialistas/Danahe Duran Tecnico Hospital.webp",
+  },
+  {
+    name: "Dra. Grishka Berrios",
+    specialty: "Anestesiología",
+    image: "/images/Especialistas/Grishka-Berios-Anestesiologa.webp",
+  },
+  {
+    name: "Dra. Katherine Ávalos",
+    specialty: "Anestesiología",
+    image: "/images/Especialistas/Katherine-Avalos-anestesiologa.webp",
+  },
+  {
+    name: "Dr. Leonardo Despecci",
+    specialty: "Técnico de Hospital",
+    image: "/images/Especialistas/Leonardo Despecci Tecnico de Hospital.webp",
+  },
+  {
+    name: "Dra. Perla Tapia",
+    specialty: "Técnico Área de Cirugía",
+    image: "/images/Especialistas/Perla Tapia Tecnico area cirugia.webp",
+  },
+  {
+    name: "Dra. Susana Melo",
+    specialty: "Cirujana",
+    image: "/images/Especialistas/Susana-Melo-cirujana.webp",
+  },
+  {
+    name: "Dr. Vicente Sanhueza",
+    specialty: "Oncología",
+    image: "/images/Especialistas/Vicente-sanhueza-oncologo.webp",
+  },
+
 ]
 
 export default function EquipoPage() {
