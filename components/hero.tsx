@@ -1,8 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Clock, Shield, Award } from "lucide-react"
+import { Clock, Shield, Award, AlertCircle } from "lucide-react"
 import { AgendarButton } from "@/components/agendarButton"
+import { Alert } from "./ui/alert"
+import { AlertDialog } from "./ui/alert-dialog"
 
 export function Hero() {
   return (
@@ -76,6 +78,31 @@ export function Hero() {
                 <p className="text-sm font-semibold text-primary-foreground">Siete Años</p>
                 <p className="text-xs text-primary-foreground/60">De experiencia</p>
               </div>
+            </div>
+          </div>
+        </div>
+     
+        <div className="mt-8 max-w-2xl rounded-xl border border-primary-foreground/20 bg-primary-foreground/10 p-4 backdrop-blur-sm">
+          <div className="flex items-start gap-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-foreground/10">
+              <AlertCircle className="h-5 w-5 text-primary-foreground" />
+            </div>
+
+            <div>
+              <p className="text-sm font-semibold text-primary-foreground">
+                Importante sobre tu reserva
+              </p>
+
+              <p className="mt-1 text-xs leading-relaxed text-primary-foreground/70">
+                El abono realizado para reservar una hora será reembolsable o podrá
+                utilizarse para reagendar cuando la cancelación se informe con al
+                menos <strong className="text-primary-foreground">24 horas de anticipación</strong>.
+              </p>
+
+              <p className="mt-2 text-xs leading-relaxed text-primary-foreground/70">
+                En caso de cancelar o informar la inasistencia con menos de 24 horas
+                de anticipación, <strong className="text-primary-foreground">el abono no será reembolsable</strong>.
+              </p>
             </div>
           </div>
         </div>
